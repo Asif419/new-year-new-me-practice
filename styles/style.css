@@ -1,0 +1,158 @@
+/* common styles */
+* {
+    margin: 0 auto;
+    font-family: "Work Sans", sans-serif;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.btn-primary {
+    color: #005FAC;
+    border-radius: 10px;
+    border: 0px;
+    line-height: 23px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    padding: 18px;
+}
+
+
+
+/* banner styles */
+.banner {
+    background: no-repeat url("../images/banner/banner3.png");
+    background-size: cover;
+    background-position: center center;
+    padding: 250px 0px;
+    color: #FFFFFF;
+}
+
+.banner-container {
+    padding-left: 55%;
+    padding-right: 20%;
+}
+
+.banner-title {
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.banner-description {
+    padding: 20px 0px;
+}
+
+
+/*  failure styles */
+.failure-container {
+    margin: 130px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    text-align: left;
+    padding-right: 200px;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.failure-description {
+    margin: 20px 0px;
+}
+
+.failures {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+/* My plans styles */
+.plans {
+    text-align: center;
+}
+
+.plans-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.my-plan-container {
+    margin: 130px 300px;
+    display: flex;
+    text-align: center;
+}
+
+.plan-title {
+    margin: 10px 0px;
+}
+
+
+/* connection styles */
+.connection-container {
+    margin: 150px 370px;
+    padding: 80px 300px 80px 70px;
+    background-image: linear-gradient(90deg, #184d86 0%, rgba(241, 91, 34, 0) 100%), url(../images/watch.png), url(../images/gradient1.png);    
+    border-radius: 8px;
+}
+
+.connection-title {
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+/* footer styles */
+footer {
+    background-color: black;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    gap: 30px;
+    padding: 100px 250px;
+}
+
+.future > p {
+    margin-top: 20px;
+}
+
+.future-title {
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.footer-container input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+.social-media img {
+    width: 5%;
+}
+
+.subscribe-title {
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.subscribe input {
+    margin: 10px 0px;
+}
+
+.subscribe-button {
+    background-color: #005FAC;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
